@@ -13,7 +13,7 @@ public class  BigInteger_factorials
 		    System.out.println(fac(n));
 		}
 		sc.close();
-	} 
+	}//main
     
     public static BigInteger fac(int n)
     {
@@ -21,5 +21,5 @@ public class  BigInteger_factorials
         for(int i=2;i<=n;i++)
         f=f.multiply(BigInteger.valueOf(i));
         return f;
-    }
-}
+    }//BigInteger
+}//BigInteger_factorials
